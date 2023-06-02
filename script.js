@@ -47,7 +47,7 @@ function displayEmployeeData(employeeData) {
     var employeeDataDiv = document.getElementById("employeeData");
     if (employeeData) {
         employeeDataDiv.innerHTML = `
-            <p><strong>Nome:</strong> ${employeeData.name} trabalha: ${employeeData.r_hrs}</p>
+            <p><strong>Nome:</strong> ${employeeData.name}</p>
             <p><strong>Horas regulares:</strong> ${employeeData.r_hrs}</p>
             <p><strong>Salário:</strong> R$${employeeData.salary}</p>
             <p><strong>Valor por hora:</strong> R$${hourlyRate.toFixed(2)}</p>
