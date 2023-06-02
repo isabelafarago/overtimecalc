@@ -41,4 +41,4 @@ If you have any questions or suggestions regarding the Over time project, feel f
 - Discord Username: isabelaffarago#7754
 
 ## Acknowledgements
-I would like to express my special thanks to [Pedro Correa Sampaio] (https://github.com/pedrocsampaio) for their valuable contributions to the codebase and their assistance in improving the functionality and accuracy of the overtime calculator. 
+I would like to express my special thanks to [Pedro Correa Sampaio](https://github.com/pedrocsampaio) for their valuable contributions to the codebase and their assistance in improving the functionality and accuracy of the overtime calculator. 
