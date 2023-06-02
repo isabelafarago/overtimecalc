@@ -11,7 +11,7 @@ The overtime calculator has the following features:
 - Displays the employee's name, regular hours worked, salary, hourly rate, and overtime pay.
 
 ## How to Use
-
+**Make sure you are using a valid CPF in the JSON FILE.
 1. Clone or download this repository.
 
 2. Open the `index.html` file in your web browser.
@@ -23,7 +23,7 @@ The overtime calculator has the following features:
 5. Enter the number of overtime hours in the corresponding input field.
 
 6. Click the "Search" button to search for the employee and display the data.
-
+  
 ## Customization
 
 The Overtime Calculator application is deployed and accessible at the following link:
