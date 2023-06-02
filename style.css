@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+  
+  body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+  
+.container {
+    text-align: center;
+    background-color: #F8F3FE;
+    padding: 30px;
+    color: #282447;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px #18003f36;
+    gap: 0px;
+    margin: 0 100px;
+}
+  
+  .button {
+    cursor: pointer;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border: 0;
+    padding: 8px 16px;
+    background-color: #4d04c2;
+    color: #F8F3FE;
+    font-weight: 600; 
+}
+  
+  .button:hover {
+    background-color: #7f44df;
+}
+  
+  .input {
+    border: 1px solid rgb(219, 219, 219);
+    padding: 8px 16px;
+    color: rgb(109, 109, 109);
+    margin: 0px -3px;
+}
+
+  #extraHours {
+    padding: 7px 16px;
+
+}
+
+  #cpf {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 50px;
+}
+  
+  .input:focus {
+    border: 1px solid #4d04c2;
+    outline: none;
+}
+  
+@media screen and (max-width: 913px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input {
+        border-radius: 50px;
+        margin-bottom: 10px;
+    }
+
+    #cpf {
+        border-radius: 50px;
+    }
+
+    .button {
+        border-radius: 50px;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px;
+    }
+
+    .input {
+        border-radius: 50px;
+        margin-bottom: 10px;
+    }
+
+    #cpf {
+        border-radius: 50px;
+    }
+
+    .button {
+        border-radius: 50px;
+    }
+}

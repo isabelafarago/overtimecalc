@@ -1,0 +1,29 @@
+{
+    "employees": [
+      {
+        "name": "Fernando Marinho",
+        "cpf": "123.456.789-04",
+        "salary": 3000.00,
+        "r_hrs": 44
+      },
+      {
+        "name": "Isabela Ferreira",
+        "cpf": "987.654.321-80",
+        "salary": 1500.00,
+        "r_hrs": 44
+      },
+      {
+        "name": "Pedro Correa",
+        "cpf": "456.789.123-09",
+        "salary": 5500.00,
+        "r_hrs": 44
+      },
+      {
+        "name": "Luana Freitas",
+        "cpf": "017.202.157-09",
+        "salary": 5500.00,
+        "r_hrs": 44
+      }
+    ]
+  }
+  

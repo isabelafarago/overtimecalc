@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculadora horas extra</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <h1 class="title">Calculadora de hora extra</h1>  
+            <input class="input" type="text" id="cpf" placeholder="CPF" maxlength="14" oninput="validateInput(this)">
+            
+            <input class='input' type="number" id="number" placeholder="Hora extra" maxlength="2" min="0" >
+
+            <select class="input" id="extraHours">
+                <option value="100" id="number">Horas extras 100%</option>
+                <option value="50" id="number">Horas extras 50%</option>
+            </select>
+
+            <button class="button" onclick="searchEmployee()">Procure</button>
+            <div id="employeeData"></div>
+        </div>
+
+    </body>
+</html>
