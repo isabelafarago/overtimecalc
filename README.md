@@ -29,9 +29,6 @@ The overtime calculator has the following features:
 The Overtime Calculator application is deployed and accessible at the following link:
 [OverTime Calculator Deployment](https://isabelafarago.github.io/overtimecalc/)
 
-You can visit the deployment page to see the live version of the dashboard and interact with its features.
-
-
 ## Author
 
 If you have any questions or suggestions regarding the Over time project, feel free to contact me:
